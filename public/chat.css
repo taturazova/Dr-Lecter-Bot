@@ -1,0 +1,12 @@
+#chat-body{
+    border-style: solid;
+    background-color: lightgrey;
+    min-height: 200px;
+    width: 50%;
+}
+#hl{
+    float: right;
+}
+#small{
+    float: left;
+}

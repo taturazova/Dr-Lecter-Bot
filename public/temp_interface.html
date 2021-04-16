@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Hannibal Lecter</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.2/socket.io.js"></script>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+    <h1>You doctor today is: Dr. Hannibal Lecter</h1>
+    <img src="images/drlecter.jpg" id="hl">
+    <!-- <script src="chat.js"></script> -->
+
+    <div id="chat">
+        <p>Dr. Lecter</p>
+        <p>psychiatric specialist</p>
+        <div id="chat-body">
+            <img id="small" src="images/drlecter-small.png" width="30" height=auto><div id="bot-reply">How can I help you today?</div>
+         </div>
+        <input id="user-handle" type="text" placeholder="user-handle"/>
+        <input id="message" type="text" placeholder="Type here..."/>
+        <button id="send" type="button">Send</button>
+    </div>
+<script>
+    var input = document.getElementById("message");
+    input.addEventListener("keyup", function(event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            document.getElementById("send").click();
+            document.getElementById("message").value="";
+        }
+    });
+</script>
+</body>
+</html>

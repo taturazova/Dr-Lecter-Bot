@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "name": "user.depression",
+            "link":"<a href='https://www.helpguide.org/articles/depression/coping-with-depression.htm'>Depression Helpguide</a>",
+            "summary":"Durings times of COVID, you can ease out the depression by sociazling every once in a while with family or friends via Facetime or chat. There are also online Discord servers or Slack groups with people who share a similar interest to keep you engaged with a community. Also make sure to do things that you enjoy doing like a sport or music hobby and sleep to stay fresh throughout the day."
+        },
+        {
+            "name": "user.anxiety",
+            "link":"<a href='https://www.helpguide.org/articles/anxiety/anxiety-disorders-and-anxiety-attacks.htm'>Anxiety Helpguide</a>",
+            "summary":"It's normal to feel anxious during the pandemic and you might feel better by connecting with friends and family through Facetime or chat. Also, try to give relaxation techniques a go such as meditation or a 10 minutes of mindfulness at the end of the day."
+        },
+        {
+            "name": "user.cannotsleep",
+            "link":"<a href='https://www.helpguide.org/articles/sleep/insomnia-causes-and-cures.htm'>Insomnia Helpguide</a>",
+            "summary":"Don’t lose sleep over lost sleep.  Ironically, thinking about insomnia keeps you awake.  Thoughts such as, “I’m going to be a disaster tomorrow,” or “This is totally going to ruin my day,” are stimulating and compound the problem.  Approach your insomnia with resigned composure.  Yes, you’ll probably be tired tomorrow.  No, you won’t be in top form.  But you’ve handled sleepiness before and you can manage.  Tomorrow night you can catch up."
+        }
+
+    ]
+}
