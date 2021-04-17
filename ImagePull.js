@@ -4,10 +4,6 @@ var flickr = new Flickr(FLICKR_API_KEY);
 
 module.exports = class ImagePull {
 
-    // constructor(language) {
-    //     this.language = language;
-    // }
-
     // Find images
     // Uses flickr-sdk api
 

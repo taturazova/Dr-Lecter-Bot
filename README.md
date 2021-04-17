@@ -17,6 +17,9 @@ Hannibal is an extremely brilliant psychiatrist, but also a mentally disturbed a
 - It also advises to mental health issues reported by the user, and provides helpful reosurces.
 - The bot can identify an entity (a well known place, person), and respond to it.
 - A diverse conversation topic includes recipes & wine recommendations: The bot loves to cook, and can be asked about recipes. The bot can also make wine recommendations.
+- The bot can speak multiple languages
+- Upon recognizing a named entity, the bot looks up images related to that named entity on Flickr.com
+- The bot can send the user pictures of cats :)
 
 ## How to make it work
 - Run the index.js code in the terminal. This is the Server (bot) code.
@@ -32,4 +35,14 @@ Hannibal is an extremely brilliant psychiatrist, but also a mentally disturbed a
 - **ner-promise** api & **Stanford NER** library - Named Entity Recognition
 - **vader-sentiment package** - sentiment analysis
 - **unirest** & **Spoonacular** API - accessing the database of Recipes & Wine recommendations
+
+
+## INDIVIDUAL PROJECT:
+## APIs used
+- **Bing Translate** api - translating text into multiple languages, detecting language of the message, used the bing-translate-api module
+- **Flickr** api - searching relevant images on Flickr.com, used flickr-sdk module
+
+## New classes created:
+- **Translator**  - uses the bing-translate-api, Doctor class has an attribute of that class, that it uses to process the users' messages
+- **ImagePull**  - uses the flickr-sdk module, has a method that returns an array of links for images relevant to the user's request
 
